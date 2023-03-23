@@ -1,0 +1,94 @@
+@import url('http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900italic,900');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background: rgb(255,255,255);
+}
+hr {
+    background: #007bff;
+}
+
+.navbar .navbar-nav .nav-item {
+    padding-right: 3.5rem ;
+}
+
+.navbar .navbar-nav .nav-item a{
+    font-size: 1.0rem;
+    font-weight: 500;
+    color: #95a5a6;
+}
+
+.navbar .navbar-nav button{
+    background:#6163ff;
+    padding: 0.1rem 1.7rem;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.mid h1 span{
+    color: rgb(192,64,0);
+    font-weight: 900;
+
+}
+
+.mid h1{
+    color: black;
+    font-weight: 900;
+
+}
+
+.mid p {
+    width: 60%;
+    font-size: 1.4rem;
+    font-weight: 400;
+    color:#97a4ae;
+}
+
+.mid .row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.mid .row button{
+    padding: 0.7rem 2rem;
+    font-size: 1rem;
+    font-weight: 700;
+    margin: 0 0.6rem;
+}
+
+.mid .row button:nth-child(2){
+    background: #fff;
+    color:rgb(192,64,0);
+}
+
+body > header > div > h1.text2{
+    font-weight: 900;
+    font-size: 3rem;
+    color: #000;
+}
+
+.features .row .one img{
+    background: #007bff;
+    color: #fff;
+    border-radius: 50px;
+}
+
+.features .row .one h3{
+    color: black;
+    font-weight: 700;
+}
+
+.features .row .one p{
+    color: #97a4ae;
+    font-weight: 500;
+    font-size: 1.1rem;
+}
